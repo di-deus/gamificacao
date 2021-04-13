@@ -8,7 +8,7 @@
     .tMin i { font-size: 2.5em; }
   .duv { width: 22px; height: 22px; border-radius: 50%; text-align: center; border: 1px solid rgb(136, 124, 124); float: left; margin-left: 10px;}
   .in .modal { text-align: justify; }
-  .perfil { display: ; }
+  .perfil { display: none; }
   .docWhite { color: blue; }
   #modal5 .modal-content { min-height: 200px;}
   @media screen and (min-width: 0px) and (max-width: 600px)

@@ -6,4 +6,5 @@ $(document).ready(function()
         $('.in').hide()
         $('.perfil').show()
     })
+    $('.tooltipped').tooltip();
 })

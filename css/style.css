@@ -1,9 +1,20 @@
  .in .material-icons {font-size: 3em; }
-  .container .row .in1, .container .row .in2, .container .row .in3, .container .row .in4, .container .row .in5, .container .row .in6, .container .row .in7, .container .row .in8 { cursor: pointer; height: 150px; border-radius: 7px; border-left: 4px solid rgb(134, 202, 134); text-align: center; font-size: 1.5em; }
+  .container .row .in1, .container .row .in2, .container .row .in3, .container .row .in4, .container .row .in5, .container .row .in6, .container .row .in7, .container .row .in8 { cursor: pointer; height: 150px; border-radius: 0px 7px 7px 0px; border-left: 4px solid rgb(134, 202, 134); text-align: center; font-size: 1.5em; }
+  .container .row .in1 {border-left: 4px solid rgb(134, 202, 134);}
+  .container .row .in2 {border-left: 4px solid rgb(134, 166, 202);}
+  .container .row .in3 {border-left: 4px solid rgb(202, 134, 134);}
+  .mDuv, .tDuv { margin-bottom: 15px; float: left; padding-left: 5px; border-left: grey 3px solid }
+  .tMin { line-height:30px; }
+    .tMin i { font-size: 2.5em; }
+  .duv { width: 22px; height: 22px; border-radius: 50%; text-align: center; border: 1px solid rgb(136, 124, 124); float: left; margin-left: 10px;}
   .in .modal { text-align: justify; }
-  .perfil { display: none; }
+  .perfil { display: ; }
+  .docWhite { color: blue; }
+  #modal5 .modal-content { min-height: 200px;}
   @media screen and (min-width: 0px) and (max-width: 600px)
   {
+    #modal5 { width: 96%; }
+    .tIco i { font-size: 3em;}
   }
 
   @media screen and (min-width: 601px) and (max-width: 992px)

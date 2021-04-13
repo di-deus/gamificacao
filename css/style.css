@@ -1,0 +1,19 @@
+ .in .material-icons {font-size: 3em; }
+  .container .row .in1, .container .row .in2, .container .row .in3, .container .row .in4, .container .row .in5, .container .row .in6, .container .row .in7, .container .row .in8 { cursor: pointer; height: 150px; border-radius: 7px; border-left: 4px solid rgb(134, 202, 134); text-align: center; font-size: 1.5em; }
+  .in .modal { text-align: justify; }
+  .perfil { display: none; }
+  @media screen and (min-width: 0px) and (max-width: 600px)
+  {
+  }
+
+  @media screen and (min-width: 601px) and (max-width: 992px)
+  {
+  }
+
+    @media screen and (min-width: 993px) and (max-width: 1200px)
+  {
+  }
+
+  @media screen and (min-width: 1201px) and (max-width: 5000px)
+  {
+  }

@@ -24,7 +24,7 @@
     .rowDet.tMin i { font-size: 2.5em; }
   .in .modal { text-align: justify; }
   .linkDet:hover { border-left: 2px black solid; margin-bottom: 5px; }
-  .perfil { display: none; }
+  .perfil { display: ; }
   .docWhite { color: blue; }
   #modal5 .modal-content { min-height: 200px;}
   @media screen and (min-width: 0px) and (max-width: 600px)

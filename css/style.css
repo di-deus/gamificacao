@@ -1,15 +1,39 @@
+ .tMin .ferro { border-radius: 50%; width: 20px; height: 20px; background: #3C3B3F;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #605C3C, #3C3B3F);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #605C3C, #3C3B3F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  .tMin .bronze { border-radius: 50%;width: 20px; height: 20px; background: #e9d362;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #333333, #e9d362);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #333333, #e9d362); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  .tMin .prata { border-radius: 50%;width: 20px; height: 20px; background: #757F9A;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #D7DDE8, #757F9A);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #D7DDE8, #757F9A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  .tMin .ouro { border-radius: 50%;width: 20px; height: 20px; background: #fffc00;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ffffff, #fffc00);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffffff, #fffc00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  .tMin .diam { border-radius: 50%;width: 20px; height: 20px; background: #2980B9;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+ 
  .ocult { display: none; }
  .in .material-icons {font-size: 3em; }
-  .container .row .in1, .container .row .in2, .container .row .in3, .container .row .in4, .container .row .in5, .container .row .in6, .container .row .in7, .container .row .in8 { cursor: pointer; height: 150px; border-radius: 0px 7px 7px 0px; border-left: 4px solid rgb(134, 202, 134); text-align: center; font-size: 1.5em; }
+  .container .row .in1, .container .row .in2, .container .row .in3, .container .row .in4, .container .row .in5, .container .row .in6, .container .row .in7, .container .row .in8 { cursor: pointer; height: 150px; border-radius: 0px 7px 7px 0px; text-align: center; font-size: 1.5em; padding: 10px; }
   .container .row .in1 {border-left: 4px solid rgb(134, 202, 134);}
   .container .row .in2 {border-left: 4px solid rgb(134, 166, 202);}
   .container .row .in3 {border-left: 4px solid rgb(202, 134, 134);}
   .container .row .in4 {border-left: 4px solid rgb(202, 134, 134); height: auto;}
-  .container .row .in5 {border-left: 4px solid rgb(134, 202, 182); height: auto;}
+  .container .row .in5 {border-left: 4px solid rgb(134, 202, 182); height: 270px; overflow-y: scroll;}
+  .container .row .in6 {border-left: 4px solid rgb(144, 134, 202); height: 200px; overflow-y: scroll;}
+  .container .row .in7 {border-left: 4px solid rgb(55, 80, 76); height: 200px; overflow-y: scroll;}
+  .container .row .in8 {border-left: 4px solid rgb(212, 221, 220); height: 200px; overflow-y: scroll;}
   .rowTop { height: 40px;}
     .spanTopL { position: absolute; top: 5px; left: 10px;}
     .spanTopR { position: absolute; top: 5px; right: 10px;}
-  .container .row .col .mMeta { height: 90%; position: absolute; top: 0px; right: 10px; padding-top: 10px;}
+  .container .row .col .mMeta { height: 90%; position: absolute; top: 0px; right: 10px; padding-top: 10px; }
     .itemExer { font-weight: 500; margin-right: 10px;}
   .divFP { width: 100px; height: 130px; padding: 5px; }
     .fPerfil { }
@@ -18,19 +42,42 @@
     .fEvol p { font-weight: 500; margin: 5px;}
     .fEvol span { font-weight: 100;} 
   .in5 .mDuv, .in5 .tDuv { margin-bottom: 15px; float: left; padding-left: 5px; border-left: grey 3px solid; text-align: left; font-size: .8em;}
+      .in5 .detPonto { border-radius: 0px 0px 10px 10px; height: 30px; opacity: .7; }
+      .detPonto i { line-height: 30px; color: white;}
+      .detPonto span { font-weight: 500; color: white;}
+        .c1 {background: #eacda3;  /* fallback for old browsers */
+          background: -webkit-linear-gradient(to right, #d6ae7b, #eacda3);  /* Chrome 10-25, Safari 5.1-6 */
+          background: linear-gradient(to right, #d6ae7b, #eacda3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+          }
+        .c2 {background: #457fca;  /* fallback for old browsers */
+          background: -webkit-linear-gradient(to right, #5691c8, #457fca);  /* Chrome 10-25, Safari 5.1-6 */
+          background: linear-gradient(to right, #5691c8, #457fca); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+          }
+        .c3 {background: #B24592;  /* fallback for old browsers */
+          background: -webkit-linear-gradient(to right, #F15F79, #B24592);  /* Chrome 10-25, Safari 5.1-6 */
+          background: linear-gradient(to right, #F15F79, #B24592); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+          }
+        .c4 {background: #8E0E00;  /* fallback for old browsers */
+          background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);  /* Chrome 10-25, Safari 5.1-6 */
+          background: linear-gradient(to right, #1F1C18, #8E0E00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+          }
+        .c5 {background: #005C97;  /* fallback for old browsers */
+          background: -webkit-linear-gradient(to right, #363795, #005C97);  /* Chrome 10-25, Safari 5.1-6 */
+          background: linear-gradient(to right, #363795, #005C97); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        }
+  .tMin .tIco { font-size: 35px;}
   .rowDet .col, .rowDet .col { text-align: left;}
     .rowDet .col span, .rowDet .col span { font-size: 0.7em;}
-  .rowDet .tMin { line-height:15px; }
+  .rowDet .tMin { line-height:20px; }
     .rowDet.tMin i { font-size: 2.5em; }
   .in .modal { text-align: justify; }
   .linkDet:hover { border-left: 2px black solid; margin-bottom: 5px; }
-  .perfil { display: ; }
+  .app { display: none; }
   .docWhite { color: blue; }
   #modal5 .modal-content { min-height: 200px;}
   @media screen and (min-width: 0px) and (max-width: 600px)
   {
     #modal5 { width: 96%; }
-    .tIco i { font-size: 3em;}
   }
 
   @media screen and (min-width: 601px) and (max-width: 992px)

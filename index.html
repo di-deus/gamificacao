@@ -25,7 +25,7 @@
     <title>Gaming & +</title>
     <body>
         <div class="container">
-            <div class="row in modal">
+            <div class="row in">
                 <div class="col s12 m6 offset-m3 card in1 hoverable modal-trigger" href="#modal1">
                     Veja os benefícios gerados pelo exercício físico no trabalho.
                     <div class="col s12"><div class="material-icons">trending_up</div></div>
@@ -81,7 +81,7 @@
                     </div>
                 </div>    
             </div>
-            <div class="row perfil">
+            <div class="row app">
                 <div class="col s12 m6 offset-m3 card in4 hoverable modal-trigger" href="#modal4">
                     <div class="col s12 rowTop">
                         <div class="spanTopL">Perfil<i class="material-icons right">account_circle</i></div>
@@ -104,21 +104,28 @@
                     <div class="col s12 rowTop">
                         <div class="spanTopL">Gamificação<i class="material-icons">games</i></div>
                     </div>
-                    <div class="col s6 rowDet">
-                        <div class="mDuv">Medalhas <span class="duv tooltipped" data-position="bottom" data-tooltip="Cada medalha ganha garante 1 mês de exercício">?</span></div>
-                        <div class="col s12 tMin"><span>Jan</span><i class="material-icons left">loyalty</i></div>
-                        <div class="col s12 tMin"><span>Fev</span><i class="material-icons left">loyalty</i></div>
-                        <div class="col s12 tMin"><span>Mar</span><i class="material-icons left">loyalty</i></div>
-                        <div class="col s12 tMin"><span>Abr</span><i class="material-icons left">loyalty</i></div>
-                        <div class="col s12 tMin"><span>Mai</span><i class="material-icons left">loyalty</i></div>
-                        <div class="col s12 tMin"><span>Jun</span><i class="material-icons left">loyalty</i></div>
+                    <div class="col s4 rowDet">
+                        <div class="mDuv">Medalhas <span class="duv tooltipped" data-position="bottom" data-tooltip="Medalha ganha no mês">?</span></div>
+                        <div class="col s12 tMin" style="height: 35px;"><span>Jan</span><i class="material-icons left ouro card"></i></div>
+                        <div class="col s12 tMin" style="height: 35px;"><span>Fev</span><i class="material-icons left prata card"></i></div>
+                        <div class="col s12 tMin" style="height: 35px;"><span>Mar</span><i class="material-icons left ouro card"></i></div>
+                        <div class="col s12 tMin" style="height: 35px;"><span>Abr</span><i class="material-icons left bronze card"></i></div>
+                        <div class="col s12 tMin" style="height: 35px;"><span>Mai</span><i class="material-icons left ferro card"></i></div>
+                        <div class="col s12 tMin" style="height: 35px;"><span>Jun</span><i class="material-icons left diam card"></i></div>
                     </div>
-                    <div class="col s6 rowDet">
-                        <div class="tDuv">Tempos <span class="duv tooltipped" data-position="bottom" data-tooltip="Esses são os tempos, em minutos, que você ganhou para distribuir durante a semana">?</span></div>
-                        <div class="col s12 tMin"><span>Min</span><i class="material-icons left">forward_5</i></div>
-                        <div class="col s12 tMin"><span>Min</span><i class="material-icons left">forward_10</i></div>
-                        <div class="col s12 tMin"><span>Min</span><i class="material-icons left">forward_30</i></div>
-                        <div class="col s12 tMin"><span>Min</span><i class="material-icons left">forward_30</i></div>
+                    <div class="col s4 rowDet">
+                        <div class="tDuv">Tempos <span class="duv tooltipped" data-position="bottom" data-tooltip="Esses são os tempos, em minutos, que você ganhou para distribuir durante a próxima semana">?</span></div>
+                        <div class="col s12 tMin"><span>Min</span><i class="material-icons left tIco">forward_5</i></div>
+                        <div class="col s12 tMin"><span>Min</span><i class="material-icons left tIco">forward_10</i></div>
+                        <div class="col s12 tMin"><span>Min</span><i class="material-icons left tIco">forward_30</i></div>
+                        <div class="col s12 tMin"><span>Min</span><i class="material-icons left tIco">forward_30</i></div>
+                    </div>
+                    <div class="col s4 rowDet">
+                        <div class="col s10 card detPonto c1 hoverable tooltipped" data-position="bottom" data-tooltip="Pontuação do grupo"><i class="material-icons left">group_add</i><span class="right">1000</span></div>
+                        <div class="col s10 card detPonto c2 hoverable tooltipped" data-position="bottom" data-tooltip="Interação nas redes sociais"><i class="material-icons left">thumb_up_alt</i><span class="right">500</span></div>
+                        <div class="col s10 card detPonto c3 hoverable tooltipped" data-position="bottom" data-tooltip="Metas no trabalho"><i class="material-icons left">engineering</i><span class="right">200</span></div>
+                        <div class="col s10 card detPonto c4 hoverable tooltipped" data-position="bottom" data-tooltip="Metas em saúde, qualidade de vida e exercício físicos"><i class="material-icons left">directions_run</i><span class="right">500</span></div>
+                        <div class="col s10 card detPonto c5 hoverable tooltipped" data-position="bottom" data-tooltip="Metas em saúde, qualidade de vida e exercício físicos"><i class="material-icons left">directions_run</i><span class="right">1200</span></div>
                     </div>
                 </div>
                 <div id="modal5" class="modal">
@@ -153,44 +160,57 @@
                       <a href="#!" class="modal-action modal-close waves-effect waves-green btn red">Fechar</a>
                     </div>
                 </div>
-                <div class="col s12 m6 offset-m3 card in7 hoverable modal-trigger" href="#modal7">
-                    Metas da semana
-                    <div class="col s12">
-                        <div class="material-icons">fitness_center</div>
-                        <div class="material-icons">flash_on</div>
+                <div class="col s12 m6 offset-m3 card in7 hoverable">
+                    <div class="col s12 rowTop">
+                        <div class="spanTopL">Metas para este mês<i class="material-icons">insert_chart</i></div>
+                    </div>
+                    <div class="col s6 rowDet">
+                        <div class="col s12 tMin linkDet d1"><span>Alimentação</span></div>
+                        <div class="col s12 tMin linkDet d2"><span>Peso</span></div>
+                        <div class="col s12 tMin linkDet d3"><span>Exercícios físicos</span></div>
+                        <div class="col s12 tMin linkDet d4"><span>Produção</span></div>
+                        <div class="col s12 tMin linkDet d5"><span>Educação</span></div>
+                    </div>
+                    <div class="col s6 rowDet ocult mMeta card">
+                        <div class="col s12 tMin"><span class="itemExer">Correr</span><span>2Km</span></div>
+                        <div class="col s12 tMin"><span class="itemExer">Polichinelo</span><span>50</span></div>
+                        <div class="col s12 tMin"><span class="itemExer">Flexões</span><span>15</span></div>
+                        <div class="col s12 tMin"><span class="itemExer">Agachamento</span><span>30</span></div>
                     </div>
                 </div>
                 <div id="modal7" class="modal">
                     <div class="modal-content">
-                        <div class="col s12 tMin"><span>Alimentação</span></a></div>
-                        <div class="col s12 tMin"><span>Peso</span></a></div>
-                        <div class="col s12 tMin"><span>Exercícios físicos</span></a></div>
-                        <div class="col s12 tMin"><span>Produção</span></a></div>
-                        <div class="col s12 tMin"><span>Educação</span></a></div>
                     </div>
                     <div class="modal-footer">
-                      <a href="#!" class="modal-action modal-close waves-effect waves-green btn red" >Fechar</a>
+                      <a href="#!" class="modal-action modal-close waves-effect waves-green btn red">Fechar</a>
                     </div>
                 </div>
-                <div class="col s12 m6 offset-m3 card in8 hoverable modal-trigger" href="#modal8">
-                    Metas anuais
-                    <div class="col s12">
-                        <div class="material-icons">fitness_center</div>
-                        <div class="material-icons">flash_on</div>
+                <div class="col s12 m6 offset-m3 card in8 hoverable">
+                    <div class="col s12 rowTop">
+                        <div class="spanTopL">Metas para este ano<i class="material-icons">insert_chart</i></div>
+                    </div>
+                    <div class="col s6 rowDet">
+                        <div class="col s12 tMin linkDet d1"><span>Alimentação</span></div>
+                        <div class="col s12 tMin linkDet d2"><span>Peso</span></div>
+                        <div class="col s12 tMin linkDet d3"><span>Exercícios físicos</span></div>
+                        <div class="col s12 tMin linkDet d4"><span>Produção</span></div>
+                        <div class="col s12 tMin linkDet d5"><span>Educação</span></div>
+                    </div>
+                    <div class="col s6 rowDet ocult mMeta card">
+                        <div class="col s12 tMin"><span class="itemExer">Correr</span><span>2Km</span></div>
+                        <div class="col s12 tMin"><span class="itemExer">Polichinelo</span><span>50</span></div>
+                        <div class="col s12 tMin"><span class="itemExer">Flexões</span><span>15</span></div>
+                        <div class="col s12 tMin"><span class="itemExer">Agachamento</span><span>30</span></div>
                     </div>
                 </div>
                 <div id="modal8" class="modal">
                     <div class="modal-content">
-                        <div class="col s12 tMin"><span>Alimentação</span></a></div>
-                        <div class="col s12 tMin"><span>Peso</span></a></div>
-                        <div class="col s12 tMin"><span>Exercícios físicos</span></a></div>
-                        <div class="col s12 tMin"><span>Produção</span></a></div>
-                        <div class="col s12 tMin"><span>Educação</span></a></div>
                     </div>
                     <div class="modal-footer">
-                      <a href="#!" class="modal-action modal-close waves-effect waves-green btn red" >Fechar</a>
+                      <a href="#!" class="modal-action modal-close waves-effect waves-green btn red">Fechar</a>
                     </div>
-                </div>        
+                </div>
+
             </div>
         </div>
     </body>

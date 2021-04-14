@@ -4,7 +4,7 @@ $(document).ready(function()
     $('.btn-entrar').click(function()
     {
         $('.in').hide()
-        $('.perfil').show()
+        $('.app').show()
     })
     $('.tooltipped').tooltip();
     $('.d3').click(function()

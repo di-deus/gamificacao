@@ -7,4 +7,8 @@ $(document).ready(function()
         $('.perfil').show()
     })
     $('.tooltipped').tooltip();
+    $('.d3').click(function()
+    {
+        $('.mMeta').toggle()
+    })
 })

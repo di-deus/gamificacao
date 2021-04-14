@@ -1,14 +1,30 @@
+ .ocult { display: none; }
  .in .material-icons {font-size: 3em; }
   .container .row .in1, .container .row .in2, .container .row .in3, .container .row .in4, .container .row .in5, .container .row .in6, .container .row .in7, .container .row .in8 { cursor: pointer; height: 150px; border-radius: 0px 7px 7px 0px; border-left: 4px solid rgb(134, 202, 134); text-align: center; font-size: 1.5em; }
   .container .row .in1 {border-left: 4px solid rgb(134, 202, 134);}
   .container .row .in2 {border-left: 4px solid rgb(134, 166, 202);}
   .container .row .in3 {border-left: 4px solid rgb(202, 134, 134);}
-  .mDuv, .tDuv { margin-bottom: 15px; float: left; padding-left: 5px; border-left: grey 3px solid }
-  .tMin { line-height:30px; }
-    .tMin i { font-size: 2.5em; }
-  .duv { width: 22px; height: 22px; border-radius: 50%; text-align: center; border: 1px solid rgb(136, 124, 124); float: left; margin-left: 10px;}
+  .container .row .in4 {border-left: 4px solid rgb(202, 134, 134); height: auto;}
+  .container .row .in5 {border-left: 4px solid rgb(134, 202, 182); height: auto;}
+  .rowTop { height: 40px;}
+    .spanTopL { position: absolute; top: 5px; left: 10px;}
+    .spanTopR { position: absolute; top: 5px; right: 10px;}
+  .container .row .col .mMeta { height: 90%; position: absolute; top: 0px; right: 10px; padding-top: 10px;}
+    .itemExer { font-weight: 500; margin-right: 10px;}
+  .divFP { width: 100px; height: 130px; padding: 5px; }
+    .fPerfil { }
+    .fPerfil img { width: 90px;}
+  .fEvol { font-size: .7em; text-align: left;}
+    .fEvol p { font-weight: 500; margin: 5px;}
+    .fEvol span { font-weight: 100;} 
+  .in5 .mDuv, .in5 .tDuv { margin-bottom: 15px; float: left; padding-left: 5px; border-left: grey 3px solid; text-align: left; font-size: .8em;}
+  .rowDet .col, .rowDet .col { text-align: left;}
+    .rowDet .col span, .rowDet .col span { font-size: 0.7em;}
+  .rowDet .tMin { line-height:15px; }
+    .rowDet.tMin i { font-size: 2.5em; }
   .in .modal { text-align: justify; }
-  .perfil { display: none; }
+  .linkDet:hover { border-left: 2px black solid; margin-bottom: 5px; }
+  .perfil { display: ; }
   .docWhite { color: blue; }
   #modal5 .modal-content { min-height: 200px;}
   @media screen and (min-width: 0px) and (max-width: 600px)

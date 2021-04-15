@@ -73,16 +73,51 @@
                       <h4>Já tem cadastro?</h4>
                       <input placeholder="Usuário">
                       <input placeholder="Senha"  type="password">
-                      <a href="" target="_blank">Cadastrar</a>
+                      <a id="cad" class="modal-action modal-close modal-trigger" href="#modalCad">Cadastrar</a>
                     </div>
                     <div class="modal-footer">
                       <a href="#!" class="modal-action modal-close waves-effect waves-green btn green darken-2 btn-entrar">Entrar</a>
                       <a href="#!" class="modal-action modal-close waves-effect waves-green btn grey" >Fechar</a>
                     </div>
-                </div>    
+                </div>   
+                <div id="modalCad" class="modal">
+                    <div class="modal-content">
+                        <h4>Você está quase pronto para entrar na competição!</h4>
+                        <h6>Preencha as informações abaixo para se cadastrar.</h6>
+                        <br>
+                        <p><h6>Informações pessoais</h6></p>
+                        <input placeholder="CPF">
+                        <input placeholder="Nome completo">
+                        <input placeholder="Apelido">
+                        <input placeholder="Local de trabalho">
+                        <input placeholder="Cargo">
+                        <input placeholder="Senha"  type="password">
+                        <div class="row">
+                            <div class="col s12 file-field input-field">
+                                <div class="btn" style="font-size: .7em;">
+                                  <span>Foto ou avatar do perfil</span>
+                                  <input type="file">
+                                </div>
+                            </div>
+                            <div class="col s4 fPerfil">
+                                <div class="divFP card"><img src="imagens/3x4.jpg"></div>
+                            </div>
+                        </div>
+                        <br>
+                        <p><h6>Informações do jogo</h6></p>
+                        <input placeholder="Time (Grupo)">
+                        <input placeholder="Altura">
+                        <input placeholder="Peso">
+                    </div>
+                    <div class="modal-footer">
+                      <a href="#!" class="modal-action modal-close waves-effect waves-green btn green darken-2 btn-cadEntrar">Salvar e entrar</a>
+                      <a href="#!" class="modal-action modal-close waves-effect waves-green btn grey" >Fechar</a>
+                    </div>
+                </div>
+                <div id="mostraPontos" class="btn-floating green">30</div>
             </div>
             <div class="row app">
-                <div class="col s12 m6 offset-m3 card in4 hoverable modal-trigger" href="#modal4">
+                <div class="col s12 m8 m10 offset-m1 card in4 hoverable modal-trigger" href="#modal4">
                     <div class="col s12 rowTop">
                         <div class="spanTopL">Perfil<i class="material-icons right">account_circle</i></div>
                         <div class="spanTopR">Nível<i class="material-icons right">filter_4</i></div>
@@ -98,13 +133,11 @@
                         <p>Condição (Meta): <span>Fit Ouro</span></p>
                     </div>
                 </div>
-                <div id="modal4" class="modal">
-                </div>
-                <div class="col s12 m6 offset-m3 card in5 hoverable modal-trigger" href="#modal5">
+                <div class="col s12 m10 offset-m1    card in5 hoverable">
                     <div class="col s12 rowTop">
                         <div class="spanTopL">Gamificação<i class="material-icons">games</i></div>
                     </div>
-                    <div class="col s4 rowDet">
+                    <div class="col s6 rowDet">
                         <div class="mDuv">Medalhas <span class="duv tooltipped" data-position="bottom" data-tooltip="Medalha ganha no mês">?</span></div>
                         <div class="col s12 tMin" style="height: 35px;"><span>Jan</span><i class="material-icons left ouro card"></i></div>
                         <div class="col s12 tMin" style="height: 35px;"><span>Fev</span><i class="material-icons left prata card"></i></div>
@@ -113,29 +146,36 @@
                         <div class="col s12 tMin" style="height: 35px;"><span>Mai</span><i class="material-icons left ferro card"></i></div>
                         <div class="col s12 tMin" style="height: 35px;"><span>Jun</span><i class="material-icons left diam card"></i></div>
                     </div>
-                    <div class="col s4 rowDet">
-                        <div class="tDuv">Tempos <span class="duv tooltipped" data-position="bottom" data-tooltip="Esses são os tempos, em minutos, que você ganhou para distribuir durante a próxima semana">?</span></div>
-                        <div class="col s12 tMin"><span>Min</span><i class="material-icons left tIco">forward_5</i></div>
-                        <div class="col s12 tMin"><span>Min</span><i class="material-icons left tIco">forward_10</i></div>
-                        <div class="col s12 tMin"><span>Min</span><i class="material-icons left tIco">forward_30</i></div>
-                        <div class="col s12 tMin"><span>Min</span><i class="material-icons left tIco">forward_30</i></div>
+                    <div class="col s6 rowDet">
+                        <div class="tDuv">Tempos <span class="duv tooltipped" data-position="bottom" data-tooltip="Esses são os tempos, em minutos, que você ganhou para distribuir durante a próxima semana, compartilhar ou negociar com seus companheiros">?</span></div>
+                        <div class="col s12 tMin"><span>Min</span><i class="material-icons left tIco modal-trigger" href="#modal5">forward_5</i></div>
+                        <div class="col s12 tMin"><span>Min</span><i class="material-icons left tIco modal-trigger" href="#modal5">forward_10</i></div>
+                        <div class="col s12 tMin"><span>Min</span><i class="material-icons left tIco modal-trigger" href="#modal5">forward_30</i></div>
+                        <div class="col s12 tMin"><span>Min</span><i class="material-icons left tIco modal-trigger" href="#modal5">forward_30</i></div>
                     </div>
-                    <div class="col s4 rowDet">
-                        <div class="col s10 card detPonto c1 hoverable tooltipped" data-position="bottom" data-tooltip="Pontuação do grupo"><i class="material-icons left">group_add</i><span class="right">1000</span></div>
-                        <div class="col s10 card detPonto c2 hoverable tooltipped" data-position="bottom" data-tooltip="Interação nas redes sociais"><i class="material-icons left">thumb_up_alt</i><span class="right">500</span></div>
-                        <div class="col s10 card detPonto c3 hoverable tooltipped" data-position="bottom" data-tooltip="Metas no trabalho"><i class="material-icons left">engineering</i><span class="right">200</span></div>
-                        <div class="col s10 card detPonto c4 hoverable tooltipped" data-position="bottom" data-tooltip="Metas em saúde, qualidade de vida e exercício físicos"><i class="material-icons left">directions_run</i><span class="right">500</span></div>
-                        <div class="col s10 card detPonto c5 hoverable tooltipped" data-position="bottom" data-tooltip="Metas em saúde, qualidade de vida e exercício físicos"><i class="material-icons left">directions_run</i><span class="right">1200</span></div>
+                    <div class="col s12 rowDet">
+                        <div class="tDuv" style="margin-top: 30px;">Detalhes da pontuação <span class="duv tooltipped" data-position="bottom" data-tooltip="Clique e veja como você pontuou">?</span></div>
+                        <div class="col s12">
+                            <div class="col s5 card detPonto c1 hoverable tooltipped" data-position="bottom" data-tooltip="Pontuação do grupo"><i class="material-icons left">group_add</i><span class="right">1000</span></div>
+                            <div class="col s5 offset-s2 card detPonto c2 hoverable tooltipped" data-position="bottom" data-tooltip="Interação nas redes sociais"><i class="material-icons left">thumb_up_alt</i><span class="right">500</span></div>
+                            <div class="col s5 card detPonto c3 hoverable tooltipped" data-position="bottom" data-tooltip="Metas no trabalho"><i class="material-icons left">engineering</i><span class="right">200</span></div>
+                            <div class="col s5 offset-s2 card detPonto c4 hoverable tooltipped" data-position="bottom" data-tooltip="Metas em saúde, qualidade de vida e exercício físicos"><i class="material-icons left">directions_run</i><span class="right">500</span></div>
+                            <div class="col s5 card detPonto c5 hoverable tooltipped" data-position="bottom" data-tooltip="Metas em saúde, qualidade de vida e exercício físicos"><i class="material-icons left">directions_run</i><span class="right">1200</span></div>
+                        </div>
                     </div>
                 </div>
                 <div id="modal5" class="modal">
                     <div class="modal-content">
+                        <h4>Compartilhamento de créditos</h4>
+                        <h6>Para compartilhar seus créditos com um participante digite o <strong>nome ou CPF</strong> dele e clique no botão compartilhar</h6>
+                        <div class="col s12"><input class="col s10 l4" placeholder="Digite o nome ou CPF"><i class="material-icons right">send</i></div>
+                        
                     </div>
                     <div class="modal-footer">
                       <a href="#!" class="modal-action modal-close waves-effect waves-green btn red">Fechar</a>
                     </div>
                 </div>
-                <div class="col s12 m6 offset-m3 card in6 hoverable">
+                <div class="col s12 m10 offset-m1 card in6 hoverable">
                     <div class="col s12 rowTop">
                         <div class="spanTopL">Metas para hoje<i class="material-icons">insert_chart</i></div>
                     </div>
@@ -160,7 +200,7 @@
                       <a href="#!" class="modal-action modal-close waves-effect waves-green btn red">Fechar</a>
                     </div>
                 </div>
-                <div class="col s12 m6 offset-m3 card in7 hoverable">
+                <div class="col s12 m10 offset-m1 card in7 hoverable">
                     <div class="col s12 rowTop">
                         <div class="spanTopL">Metas para este mês<i class="material-icons">insert_chart</i></div>
                     </div>
@@ -185,7 +225,7 @@
                       <a href="#!" class="modal-action modal-close waves-effect waves-green btn red">Fechar</a>
                     </div>
                 </div>
-                <div class="col s12 m6 offset-m3 card in8 hoverable">
+                <div class="col s12 m10 offset-m1 card in8 hoverable">
                     <div class="col s12 rowTop">
                         <div class="spanTopL">Metas para este ano<i class="material-icons">insert_chart</i></div>
                     </div>

@@ -1,7 +1,26 @@
 $(document).ready(function()
 {
+    $('.modal-close').click(function()
+    {
+        $('#mostraPontos').hide()
+    })
+    $('.modal-overlay').click(function()
+    {
+        $('#mostraPontos').hide()
+    })
+
+    $('#cad').click(function()
+    {
+        $('#mostraPontos').show()
+    })
+
     $('.modal').modal();
     $('.btn-entrar').click(function()
+    {
+        $('.in').hide()
+        $('.app').show()
+    })
+    $('.btn-cadEntrar').click(function()
     {
         $('.in').hide()
         $('.app').show()

@@ -65,19 +65,26 @@
           background: -webkit-linear-gradient(to right, #363795, #005C97);  /* Chrome 10-25, Safari 5.1-6 */
           background: linear-gradient(to right, #363795, #005C97); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         }
+  #mostraPontos { position: absolute; bottom: 5px; right: 5px; text-align: center; width: 60px; height: 60px; line-height: 50px; border: 4px solid wheat; display: none; z-index: 1003;}
   .tMin .tIco { font-size: 35px;}
   .rowDet .col, .rowDet .col { text-align: left;}
     .rowDet .col span, .rowDet .col span { font-size: 0.7em;}
   .rowDet .tMin { line-height:20px; }
     .rowDet.tMin i { font-size: 2.5em; }
   .in .modal { text-align: justify; }
+  .in .modal h4 { text-align: center; }
   .linkDet:hover { border-left: 2px black solid; margin-bottom: 5px; }
   .app { display: none; }
   .docWhite { color: blue; }
   #modal5 .modal-content { min-height: 200px;}
   @media screen and (min-width: 0px) and (max-width: 600px)
   {
+    .in .material-icons {font-size: 2em; margin-top: 15px;}
+    .container .row .in1 {font-size: 1.3em;}
     #modal5 { width: 96%; }
+    .divFP { width: 70px; height: 90px; padding: 5px; }
+    .fPerfil img { width: 60px;}
+    .fEvol { font-size: .6em; text-align: left;}
   }
 
   @media screen and (min-width: 601px) and (max-width: 992px)

@@ -28,6 +28,23 @@ $(document).ready(function()
     $('.tooltipped').tooltip();
     $('.d3').click(function()
     {
-        $('.mMeta').toggle()
+        $('.mMetaDia').show()
     })
+    $('.meta-modal-footer').click(function()
+    {
+        $('.mMetaDia').hide()
+    })
+    $('.cadMetaDia').click(function()
+    {
+        $('.cadMeta').show()
+    })
+    $('.fechaCadMeta').click(function()
+    {
+        $('.cadMeta').hide()
+    })
+    $('.caminhadaDia').click(function()
+    {
+        $('#caminhadaDia').toggle(1000)
+    })
+
 })

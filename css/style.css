@@ -1,25 +1,27 @@
- .tMin .ferro { border-radius: 50%; width: 20px; height: 20px; background: #3C3B3F;  /* fallback for old browsers */
+ .tMin .ferro { font-size: .8em; font-weight: 500; text-align: center; color: white; border-radius: 50%;width: 50px; height: 50px; background: #3C3B3F;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #605C3C, #3C3B3F);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #605C3C, #3C3B3F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   }
-  .tMin .bronze { border-radius: 50%;width: 20px; height: 20px; background: #e9d362;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #333333, #e9d362);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #333333, #e9d362); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  .tMin .bronze { font-size: .8em; font-weight: 500; text-align: center; color: white; border-radius: 50%;width: 50px; height: 50px; background: #e9d362;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #333333, #e2c42d);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #333333, #e2c42d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   }
-  .tMin .prata { border-radius: 50%;width: 20px; height: 20px; background: #757F9A;  /* fallback for old browsers */
+  .tMin .prata { font-size: .8em; font-weight: 500; text-align: center; color: white; border-radius: 50%;width: 50px; height: 50px; background: #757F9A;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #D7DDE8, #757F9A);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #D7DDE8, #757F9A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   }
-  .tMin .ouro { border-radius: 50%;width: 20px; height: 20px; background: #fffc00;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #ffffff, #fffc00);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #ffffff, #fffc00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  .tMin .ouro { font-size: .8em; font-weight: 500; text-align: center; color: white; border-radius: 50%;width: 50px; height: 50px; background: #fffc00;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ffffff, #e2c42d);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffffff, #e2c42d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   }
-  .tMin .diam { border-radius: 50%;width: 20px; height: 20px; background: #2980B9;  /* fallback for old browsers */
+  .tMin .diam { font-size: .8em; font-weight: 500; text-align: center; color: white; border-radius: 50%;width: 50px; height: 50px; background: #2980B9;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   }
  
  .ocult { display: none; }
+ .playCircle { cursor: pointer ;}
+ .divAvatar { margin-top: 10px; margin-bottom: 10px;}
  .in .material-icons {font-size: 3em; }
   .container .row .in1, .container .row .in2, .container .row .in3, .container .row .in4, .container .row .in5, .container .row .in6, .container .row .in7, .container .row .in8 { cursor: pointer; height: 150px; border-radius: 0px 7px 7px 0px; text-align: center; font-size: 1.5em; padding: 10px; }
   .container .row .in1 {border-left: 4px solid rgb(134, 202, 134);}
@@ -33,8 +35,10 @@
   .rowTop { height: 40px;}
     .spanTopL { position: absolute; top: 5px; left: 10px;}
     .spanTopR { position: absolute; top: 5px; right: 10px;}
-  .container .row .col .mMeta { height: 90%; position: absolute; top: 0px; right: 10px; padding-top: 10px; }
+  .container .row .col .mMetaDia, .container .row .col .cadMeta { height: 90%; position: absolute; top: 0px; right: 10px; padding-top: 10px; z-index: 1003; overflow-y: scroll;}
     .itemExer { font-weight: 500; margin-right: 10px;}
+    .btnMetas { position: absolute; bottom: 5px; }
+  .container .row .col .cadMeta { display: ; padding-left: 20px;}
   .divFP { width: 100px; height: 130px; padding: 5px; }
     .fPerfil { }
     .fPerfil img { width: 90px;}
@@ -73,7 +77,8 @@
     .rowDet.tMin i { font-size: 2.5em; }
   .in .modal { text-align: justify; }
   .in .modal h4 { text-align: center; }
-  .linkDet:hover { border-left: 2px black solid; margin-bottom: 5px; }
+  .linkDet { border-left: 2px rgba(66, 65, 65, 0.479) solid; margin-bottom: 5px; }
+  .linkDet:hover { border-left: black solid;}
   .app { display: none; }
   .docWhite { color: blue; }
   #modal5 .modal-content { min-height: 200px;}
